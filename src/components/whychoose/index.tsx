@@ -21,7 +21,7 @@ const WhyChoose = () => {
               <h4 className="capitalize relative pointer-events-none  font-bold mt-5 text-2xl">
                 WHY CHOOSE US
               </h4>
-              <hr className="w-8 h-1 group-hover:w-32 transition-all hover:w-32  duration-500 bg-red-600 mt-2" />
+              <hr className="w-8 h-1 group-hover:w-32 transition-all hover:w-32  duration-500 bg-blue-600 mt-2" />
             </div>
             <p className="mt-7 text-gray-800  leading-7 text-sm">
               Clients choose TOP SUPPORT for our unwavering commitment to

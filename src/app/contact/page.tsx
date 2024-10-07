@@ -20,12 +20,12 @@ const Contact = () => {
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
             <Link href={"/"}>
-              <li className="hover:text-red-400 hover:font-semibold cursor-pointer relative">
+              <li className="hover:text-blue-400 hover:font-semibold cursor-pointer relative">
                 Home
               </li>
             </Link>
             <li>
-              <hr className="w-[6px] h-[3px] bg-red-400" />
+              <hr className="w-[6px] h-[3px] bg-blue-400" />
             </li>
             <li className="font-semibold">Contact</li>
           </ul>
@@ -49,7 +49,7 @@ const Contact = () => {
               href="mailto:info@topsupportsa.com"
               className="flex items-center"
             >
-              <p className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
+              <p className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
                 info@qualitylineauto.com
               </p>
             </a>
@@ -57,7 +57,7 @@ const Contact = () => {
               href="mailto:topsupksa24@gmail.com"
               className="flex items-center"
             >
-              <p className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
+              <p className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
                 qlas0009@eim.ae
               </p>
             </a>
@@ -70,13 +70,13 @@ const Contact = () => {
             <h5 className="text-sm mt-3 ">KSA:</h5>
             <a
               href="tel:+9660503513353"
-              className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
+              className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
             >
               +971 4 3470009,
             </a>
             <a
               href="tel:+9660502664435"
-              className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
+              className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
             >
               +971 4 3411127
             </a>
@@ -88,7 +88,7 @@ const Contact = () => {
             <div className="mt-4">
               <a
                 href="https://maps.app.goo.gl/ceCdiJpeZvkfboAp6"
-                className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium leading-6 pr-2"
+                className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium leading-6 pr-2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,7 +113,7 @@ const Card = ({ title, id, Icon, children }: any) => {
       </div>
       <div
         className="min-w-[50px] min-h-[50px] shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] group-hover:shadow-none group-hover:bg-gray-800 transition-all duration-500
-      rounded-md flex items-center group-hover:text-white justify-center h-fit bg-red-500/80"
+      rounded-md flex items-center group-hover:text-white justify-center h-fit bg-blue-500/80"
       >
         <Magnet>
           <Icon />

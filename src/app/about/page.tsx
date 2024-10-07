@@ -17,12 +17,12 @@ const AboutPage = () => {
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
             <Link href={"/"}>
-              <li className="hover:text-red-400 hover:font-semibold cursor-pointer relative">
+              <li className="hover:text-blue-400 hover:font-semibold cursor-pointer relative">
                 Home
               </li>
             </Link>
             <li>
-              <hr className="w-[6px] h-[3px] bg-red-400" />
+              <hr className="w-[6px] h-[3px] bg-blue-400" />
             </li>
             <li className="font-semibold">About</li>
           </ul>

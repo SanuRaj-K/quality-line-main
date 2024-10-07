@@ -35,8 +35,8 @@ const Navbar = () => {
                 <li
                   key={item.id}
                   className={` ${
-                    pathname === item.path && `text-red-500 font-bold`
-                  } cursor-pointer  hover:text-red-500`}
+                    pathname === item.path && `text-blue-500 font-bold`
+                  } cursor-pointer  hover:text-blue-500`}
                 >
                   {item.title}
                 </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div onClick={() => setMenuOpen((prev) => !prev)}>
-          <MenuIcon className="flex md:hidden  cursor-pointer hover:text-red-400" />
+          <MenuIcon className="flex md:hidden  cursor-pointer hover:text-blue-400" />
         </div>
       </section>
       <div

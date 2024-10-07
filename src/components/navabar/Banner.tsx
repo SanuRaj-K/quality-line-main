@@ -43,7 +43,7 @@ const Banner = () => {
               href="mailto:info@topsupportsa.com"
               className="flex items-center"
             >
-              <MailIcon className="text-sm group-hover:text-red-500" />
+              <MailIcon className="text-sm group-hover:text-blue-500" />
               <h5 className="ml-2">info@qualitylineauto.com</h5>
             </a>
           </li>
@@ -54,7 +54,7 @@ const Banner = () => {
               rel="noopener noreferrer"
               className="flex items-center"
             >
-              <LocationOnIcon className="text-sm  group-hover:text-red-500" />
+              <LocationOnIcon className="text-sm  group-hover:text-blue-500" />
               <h5 className="ml-2 ">
                 Al –Quoz Industrial Area-4 Near to Emirates Glass Factory Dubai,
                 U.A.E
@@ -63,13 +63,13 @@ const Banner = () => {
           </li>
           <li className="flex items-center group cursor-pointer">
             <a href="tel:+9660503513353" className="flex items-center">
-              <CallIcon className="text-sm group-hover:text-red-500 " />
+              <CallIcon className="text-sm group-hover:text-blue-500 " />
               <h5 className="ml-2 "> +971 4 3470009</h5>
             </a>
           </li>
           <li className="flex items-center group cursor-pointer">
             <a href="tel:+9660502664435" className="flex items-center">
-              <CallIcon className="text-sm  group-hover:text-red-500" />
+              <CallIcon className="text-sm  group-hover:text-blue-500" />
               <h5 className="ml-2 ">+971 4 3411127
               </h5>
             </a>
@@ -82,7 +82,7 @@ const Banner = () => {
           <li className="flex hover:-translate-y-1 hover:text-blue-500 transition-all duration-300  cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
             <TwitterIcon className="text-[18px]" />
           </li>
-          <li className="flex  hover:-translate-y-1 hover:text-red-500 transition-all duration-300 cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
+          <li className="flex  hover:-translate-y-1 hover:text-blue-500 transition-all duration-300 cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
             <InstagramIcon className="text-[18px]" />
           </li>
         </ul>

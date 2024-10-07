@@ -18,12 +18,12 @@ const Services = () => {
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
             <Link href={"/"}>
-              <li className="hover:text-red-400 hover:font-semibold cursor-pointer relative">
+              <li className="hover:text-blue-400 hover:font-semibold cursor-pointer relative">
                 Home
               </li>
             </Link>
             <li>
-              <hr className="w-[6px] h-[3px] bg-red-400" />
+              <hr className="w-[6px] h-[3px] bg-blue-400" />
             </li>
             <li className="font-semibold">Services</li>
           </ul>
@@ -120,7 +120,7 @@ const Services = () => {
           </div>
           <div className="w-fit mb-6 mt-20 ">
             <h5 className=" md:text-xl  font-semibold ">Our Services</h5>
-            <hr className="w-full h-1 rounded-full mt-1 bg-red-500" />
+            <hr className="w-full h-1 rounded-full mt-1 bg-blue-500" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-3 xl:gap-10 ">
             {services.map((service) => (
@@ -137,7 +137,7 @@ const Services = () => {
                   </div>
                   <div className="min-h-[70px] text-xs md:text-sm bg-gray-800 text-white flex items-center px-7 justify-between">
                     {service.title}
-                    <button className=" text-xs md:text-sm whitespace-nowrap  text-red-400 hover:underline   cursor-pointer">
+                    <button className=" text-xs md:text-sm whitespace-nowrap  text-blue-400 hover:underline   cursor-pointer">
                       Know more
                     </button>
                   </div>

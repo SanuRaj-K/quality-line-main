@@ -57,7 +57,7 @@ const About = () => {
               </p>
               <Link
                 href="/contact"
-                className="mt-8 inline-block rounded border  btn px-12 py-3 text-sm font-medium text-white  bg-red-400"
+                className="mt-8 hover:bg-black inline-block rounded border   btn px-12 py-3 text-sm font-medium text-white  bg-blue-400"
               >
                 Get in Touch
               </Link>

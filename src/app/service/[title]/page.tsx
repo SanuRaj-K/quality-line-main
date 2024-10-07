@@ -23,7 +23,7 @@ const ServicePage = ({ params: { title } }: { params: { title: string } }) => {
               <h3 className="font-semibold text-[26px]">
                 {decodeURIComponent(title)}
               </h3>
-              <hr className="w-8 rounded-r-md group-hover:w-20 transition-all duration-300 h-[5px] mt-2 bg-red-400" />
+              <hr className="w-8 rounded-r-md group-hover:w-20 transition-all duration-300 h-[5px] mt-2 bg-blue-400" />
             </div>
             <p className="text-sm text-gray-600 max-w-[400px] mt-7 leading-6">
               {currentService?.desc}

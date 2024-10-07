@@ -43,8 +43,8 @@ const Footer = () => {
                 <li
                   key={item.id}
                   className={` ${
-                    pathname === item.path && `text-red-500 font-bold`
-                  } cursor-pointer hover:text-red-500 transition-all duration-300`}
+                    pathname === item.path && `text-blue-500 font-bold`
+                  } cursor-pointer hover:text-blue-500 transition-all duration-300`}
                 >
                   {item.title}
                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
           <li className="flex hover:-translate-y-1 hover:text-blue-500 transition-all duration-300  cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
             <TwitterIcon className="text-[18px]" />
           </li>
-          <li className="flex  hover:-translate-y-1 hover:text-red-500 transition-all duration-300 cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
+          <li className="flex  hover:-translate-y-1 hover:text-blue-500 transition-all duration-300 cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
             <InstagramIcon className="text-[18px]" />
           </li>
         </ul>

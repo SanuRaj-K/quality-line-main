@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         <div className="mt-0  rounded-lg overflow-hidden shadow-xl h-full lg:h-[100vh] flex flex-col justify-between">
           <div className="flex flex-col lg:flex-row h-full ">
-            <div className="flex-initial w-full py-7 lg:py-0 lg:w-[45%] bg-red-400 relative   flex items-center justify-center">
+            <div className="flex-initial w-full py-7 lg:py-0 lg:w-[45%] bg-blue-400 relative   flex items-center justify-center">
               <Magnet>
                 <Image
                   src={"/icon.svg"}
@@ -69,7 +69,7 @@ const Features = () => {
                 <p className="mt-4 text-gray-800 leading-7 text-sm font-medium">
                    We have more than 30 years Experience in the auto industry  and during this long "innings" We must admit that we have been exposed to all the intricate areas of expertise where an automobile is concerned
                 </p>
-                <button className="mt-10 inline-block rounded   btn px-12 py-3 text-sm font-medium text-red-400  bg-gray-800">
+                <button className="mt-10 inline-block rounded hover:bg-white hover:text-black   btn px-12 py-3 text-sm font-medium text-blue-400  bg-gray-800">
                   Get in Touch
                 </button>
               </div>
@@ -95,7 +95,7 @@ const Features = () => {
                   className="absolute top-4  -left-10"
                 />
                 <h6 className="text-white/60 font-bold text-[26px]">461</h6>
-                <span className="text-red-400 text-xs mt-1 font-medium tracking-wide">
+                <span className="text-blue-400 text-xs mt-1 font-medium tracking-wide">
                   FINISHED PROJECTS
                 </span>
               </div>
@@ -110,7 +110,7 @@ const Features = () => {
                   className="absolute top-4  -left-10"
                 />
                 <h6 className="text-white/60 font-bold text-[26px]">568</h6>
-                <span className="text-red-400 text-xs mt-1 font-medium tracking-wide">
+                <span className="text-blue-400 text-xs mt-1 font-medium tracking-wide">
                   HAPPY CUSTOMERS
                 </span>
               </div>
@@ -125,7 +125,7 @@ const Features = () => {
                   className="absolute top-4  -left-10"
                 />
                 <h6 className="text-white/60 font-bold text-[26px]">222</h6>
-                <span className="text-red-400 text-xs mt-1 font-medium tracking-wide">
+                <span className="text-blue-400 text-xs mt-1 font-medium tracking-wide">
                   YEAR ON THE MARKET
                 </span>
               </div>
@@ -140,7 +140,7 @@ const Features = () => {
                   className="absolute top-4  -left-10"
                 />
                 <h6 className="text-white/60 font-bold text-[26px]">55</h6>
-                <span className="text-red-400 text-xs mt-1 font-medium tracking-wide">
+                <span className="text-blue-400 text-xs mt-1 font-medium tracking-wide">
                   SKILLED PROFESSIONALS
                 </span>
               </div>

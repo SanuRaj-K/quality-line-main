@@ -12,27 +12,27 @@ const ProductPage = ({ params: { title } }: { params: { title: string } }) => {
     <section className="min-h-screen">
       <Header
         title={decodeURIComponent(title)}
-        desc="TOP SUPPORT: Special constructive solutions"
+        desc="Quality Line: Special automobile solutions"
         image={`products/${currentProduct.image}`}
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
             <Link href={"/"}>
-              <li className="hover:text-red-400 hover:font-semibold cursor-pointer relative">
+              <li className="hover:text-blue-400 hover:font-semibold cursor-pointer relative">
                 Home
               </li>
             </Link>
             <li>
-              <hr className="w-[6px] h-[3px] bg-red-400" />
+              <hr className="w-[6px] h-[3px] bg-blue-400" />
             </li>
             <Link href={"/products"}>
-              <li className="hover:text-red-400 hover:font-semibold cursor-pointe">
+              <li className="hover:text-blue-400 hover:font-semibold cursor-pointe">
                 Water Proofing
               </li>
             </Link>
             <li>
-              <hr className="w-[6px] h-[3px] bg-red-400" />
+              <hr className="w-[6px] h-[3px] bg-blue-400" />
             </li>
             <li className="font-semibold capitalize">
               {decodeURIComponent(title)}

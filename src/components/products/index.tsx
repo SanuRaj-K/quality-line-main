@@ -72,7 +72,7 @@ const Products = () => {
       </div>
       <div className="h-32 flex items-center justify-center ">
         <Link href={"/products"}>
-          <button className="px-10 py-3   rounded-md text-white bg-red-400 ">
+          <button className="px-10 py-3   rounded-md text-white bg-blue-400 ">
             view all products
           </button>
         </Link>
