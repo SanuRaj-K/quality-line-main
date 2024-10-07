@@ -5,18 +5,18 @@ import { useTransform, useScroll, motion } from "framer-motion";
 import Lenis from "@studio-freight/lenis";
 import Link from "next/link";
 const images = [
-  "products/HDPE-Membrane-300x291.jpg",
-  "products/tpo-membrane-waterproofing-service-500x500-2-300x226.jpg",
-  "bg_19.jpg",
-  "products/Screenshot_14-8-2024_125113_.jpeg",
-  "products/Screenshot_14-8-2024_125241_.jpeg",
-  "products/swellable.jpg",
-  "products/Screenshot_14-8-2024_125113_.jpeg",
-  "products/pu-grouting.webp",
-  "products/Screenshot_14-8-2024_125231_.jpeg",
-  "products/poly-profilin-geo-textile-500x500-1-300x300.webp",
-  "products/Draincell-300x300.jpg",
-  "products/tpo-membrane-waterproofing-service-500x500-2-300x226.jpg",
+  "slider1.jpg",
+  "slider2.jpg",
+  "slider3.jpg",
+  "slider4.jpg",
+  "slider5.jpg",
+  "slider6.jpg",
+  "slider7.jpg",
+  "slider8.jpg",
+  "slider9.jpg",
+  "slider2.jpg",
+  "slider3.jpg",
+  "slider4.jpg",
 ];
 const Products = () => {
   const gallery = useRef(null);
@@ -94,7 +94,7 @@ const Column = ({ images, y, top }: any) => {
             className="relative w-full h-full rounded-md overflow-hidden"
           >
             <Image
-              src={`/images/${src}`}
+              src={`/assets/images/${src}`}
               alt="image"
               fill
               className="object-cover"

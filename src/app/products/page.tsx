@@ -11,7 +11,7 @@ const Products = () => {
       <Header
         title="PRODUCTS"
         desc="Explore our top-quality products that meet your every need. From steel and welding to automobile, find the perfect solutions at Quality Line."
-        image="/images/bg_19.jpg"
+        image="slider7.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">

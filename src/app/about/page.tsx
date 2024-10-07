@@ -11,7 +11,7 @@ const AboutPage = () => {
       <Header
         title="ABOUT"
         desc=" Building Strength, Precision, and Quality – Your Trusted Partner in Steel Fabrication and Welding Solutions"
-        image="IMG-20240812-WA0052.jpg"
+        image="slider1.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">

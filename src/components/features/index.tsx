@@ -25,7 +25,7 @@ const Features = () => {
         >
           <div className="absolute left-0 right-0 bottom-0 top-0 bg-black/30"></div>
           <Image
-            src={"/images/folio_6.jpg"}
+            src={"/assets/images/slider5.jpg"}
             alt="features"
             layout="fill"
             className="object-cover relative -z-40"
