@@ -10,7 +10,7 @@ const Products = () => {
     <main className="min-h-screen">
       <Header
         title="PRODUCTS"
-        desc="Explore our top-quality products that meet your every need. From construction chemicals to waterproofing materials, find the perfect solutions at TOP SUPPORT."
+        desc="Explore our top-quality products that meet your every need. From steel and welding to automobile, find the perfect solutions at Quality Line."
         image="bg_19.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">

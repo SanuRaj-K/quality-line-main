@@ -11,7 +11,7 @@ const Services = () => {
     <main className="min-h-screen">
       <Header
         title="OUR SERVICES"
-        desc="At TOP SUPPORT, we're here to transform your aspirations into achievements."
+        desc="At Quality Line, we're here to transform your aspirations into achievements."
         image="bg_4.jpeg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">

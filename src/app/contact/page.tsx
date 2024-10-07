@@ -50,7 +50,7 @@ const Contact = () => {
               className="flex items-center"
             >
               <p className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
-                info@topsupportsa.com
+                info@qualitylineauto.com
               </p>
             </a>
             <a
@@ -58,7 +58,7 @@ const Contact = () => {
               className="flex items-center"
             >
               <p className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  ">
-                topsupksa24@gmail.com
+                qlas0009@eim.ae
               </p>
             </a>
           </Card>
@@ -72,13 +72,13 @@ const Contact = () => {
               href="tel:+9660503513353"
               className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
             >
-              +966 0503513353,
+              +971 4 3470009,
             </a>
             <a
               href="tel:+9660502664435"
               className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "
             >
-              +966 0502664435
+              +971 4 3411127
             </a>
           </Card>
           <Card title="Our Address" id="03" Icon={LocationOnIcon}>
@@ -87,13 +87,13 @@ const Contact = () => {
             </p>
             <div className="mt-4">
               <a
-                href="https://www.google.com/maps/place/King+Faisal+W,+3119,+Jubail+City+Center,+31951,+Al+Jubail,+Saudi+Arabia"
+                href="https://maps.app.goo.gl/ceCdiJpeZvkfboAp6"
                 className="text-sm text-red-400 hover:text-black transition-all duration-300 cursor-pointer font-medium leading-6 pr-2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                W, Jubail City Center, King Faisal W, 3119, Jubail City Center
-                31951, Al Jubail 35514, Saudi Arabia
+                Al –Quoz Industrial Area-4 Near to Emirates Glass Factory Dubai,
+                U.A.E
               </a>
             </div>
           </Card>

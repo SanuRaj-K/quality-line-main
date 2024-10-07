@@ -40,7 +40,7 @@ const Features = () => {
           </h4>
           <div className="flex flex-col gap-y-7">
             <p>
-              Here at Top Support, we are showcasing our long-standing presence,
+              Here at Quality Line, we are showcasing our long-standing presence,
               commitment to quality, dedication to customer satisfaction, and
               adaptability to industry changes.
             </p>
@@ -64,15 +64,10 @@ const Features = () => {
                   MORE ABOUT US
                 </h6>
                 <h4 className="text-2xl font-bold my-3">
-                  25 years of quality and <br /> successful projects
+                  30 years of quality and <br /> successful projects
                 </h4>
                 <p className="mt-4 text-gray-800 leading-7 text-sm font-medium">
-                  For over 25 years, Top Support has been a leader in
-                  construction and contracting, offering a wide range of
-                  top-quality solutions. Our commitment to excellence and
-                  customer satisfaction sets us apart, with a focus on tailored,
-                  high-quality products, technical support, and innovation.
-                  We're your trusted partner for all construction needs.
+                   We have more than 30 years Experience in the auto industry  and during this long "innings" We must admit that we have been exposed to all the intricate areas of expertise where an automobile is concerned
                 </p>
                 <button className="mt-10 inline-block rounded   btn px-12 py-3 text-sm font-medium text-red-400  bg-gray-800">
                   Get in Touch

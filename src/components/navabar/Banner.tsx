@@ -44,36 +44,40 @@ const Banner = () => {
               className="flex items-center"
             >
               <MailIcon className="text-sm group-hover:text-red-500" />
-              <h5 className="ml-2">info@topsupportsa.com</h5>
+              <h5 className="ml-2">info@qualitylineauto.com</h5>
             </a>
           </li>
           <li className="flex items-center group cursor-pointer">
             <a
-              href="https://www.google.com/maps?q=AL+JUBAIL,+DAMMAM,+KSA,+CR:2055139799"
+              href="*"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
             >
               <LocationOnIcon className="text-sm  group-hover:text-red-500" />
-              <h5 className="ml-2 ">AL JUBAIL -DAMMAM, KSA, CR:2055139799</h5>
+              <h5 className="ml-2 ">
+                Al –Quoz Industrial Area-4 Near to Emirates Glass Factory Dubai,
+                U.A.E
+              </h5>
             </a>
           </li>
           <li className="flex items-center group cursor-pointer">
             <a href="tel:+9660503513353" className="flex items-center">
               <CallIcon className="text-sm group-hover:text-red-500 " />
-              <h5 className="ml-2 ">+966 0503513353</h5>
+              <h5 className="ml-2 "> +971 4 3470009</h5>
             </a>
           </li>
           <li className="flex items-center group cursor-pointer">
             <a href="tel:+9660502664435" className="flex items-center">
               <CallIcon className="text-sm  group-hover:text-red-500" />
-              <h5 className="ml-2 ">+966 0502664435</h5>
+              <h5 className="ml-2 ">+971 4 3411127
+              </h5>
             </a>
           </li>
         </ul>
         <ul className="hidden md:flex items-center gap-[5px]">
           <li className="flex  hover:-translate-y-1 hover:text-blue-400 transition-all duration-300  cursor-pointer items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
-            <FacebookIcon className="text-[18px]" />
+            <FacebookIcon  className="text-[18px]" />
           </li>
           <li className="flex hover:-translate-y-1 hover:text-blue-500 transition-all duration-300  cursor-pointer  items-center justify-center  w-7 h-7 border border-gray-600 rounded-md bg-gray-700">
             <TwitterIcon className="text-[18px]" />

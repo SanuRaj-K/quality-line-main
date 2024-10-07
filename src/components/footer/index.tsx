@@ -14,14 +14,14 @@ const Footer = () => {
   return (
     <footer className=" h-fit py-6 md:h-fit bg-gray-800 w-full text-white">
       <div className="w-full  flex items-center flex-col justify-center ">
-        <Image
+        {/* <Image
           src={"/images/2030.png"}
           alt="vision 2023"
           width={250}
           height={250}
           className=" w-[170px] md:w-[250px]  "
-        />
-        <div className="w-full h-[250px] mt-6 flexCenter">
+        /> */}
+        <div className="w-full h-[250px]  flexCenter">
           <Map />
         </div>
       </div>

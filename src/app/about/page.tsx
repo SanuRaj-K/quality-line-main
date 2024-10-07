@@ -7,10 +7,10 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen  ">
       <Header
         title="ABOUT"
-        desc=" We're your trusted experts in waterproofing, fiber mesh, and pond liners for all your construction needs."
+        desc=" Building Strength, Precision, and Quality – Your Trusted Partner in Steel Fabrication and Welding Solutions"
         image="IMG-20240812-WA0052.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
@@ -29,8 +29,10 @@ const AboutPage = () => {
         </div>
       </nav>
       <hr className="bg-gray-50/20" />
+      <div className=" ">
+        <About />
+      </div>
 
-      <About />
       <WhyChoose />
     </main>
   );
