@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.move-bg {
+  animation: moveForward 20s infinite alternate;
+  perspective: 1000px; /* Gives a sense of depth */
+}
+
+@keyframes moveForward {
+  0% {
+    transform: scale(1) translateZ(0) translateX(0); /* Starting size */
+  }
+  100% {
+    transform: scale(1.5) translateZ(200px) translateX(-120px); /* Final size and position */
+  }
+}
