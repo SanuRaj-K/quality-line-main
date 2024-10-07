@@ -13,7 +13,7 @@ const Header = ({
   return (
     <section className="h-[380px] bg-black relative">
       <Image
-        src={`/images/${image}`}
+        src={`/images.${image}`}
         alt="header"
         fill
         quality={100}

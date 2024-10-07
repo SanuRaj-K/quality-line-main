@@ -1,19 +1,20 @@
 import Header from "@/components/common/header";
-import { porducts } from "@/constants";
+import { productsData } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const ProductPage = ({ params: { title } }: { params: { title: string } }) => {
-  const currentProduct = porducts.filter(
+  const currentProduct = productsData.filter(
     (product) => product.title === decodeURIComponent(title)
   )[0];
+ console.log(currentProduct);
   return (
     <section className="min-h-screen">
       <Header
         title={decodeURIComponent(title)}
         desc="Quality Line: Special automobile solutions"
-        image={`products/${currentProduct.image}`}
+        image={currentProduct.image}
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">
@@ -46,18 +47,18 @@ const ProductPage = ({ params: { title } }: { params: { title: string } }) => {
           <div className="grid grid-cols-1   lg:grid-cols-2">
             <div className="order-2">
               <p className="mt-4 text-gray-600 leading-7 text-sm">
-                {currentProduct.desc}
+                {currentProduct.description}
               </p>
-              <ul className="text-gray-600 leading-7 text-sm list-disc pl-5 mt-5 gap-3 flex flex-col">
+              {/* <ul className="text-gray-600 leading-7 text-sm list-disc pl-5 mt-5 gap-3 flex flex-col">
                 {currentProduct.points?.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
             <div className="flex items-center justify-center my-6 lg:my-0 order-1 lg:order-2">
               <Image
-                src={`/images/products/${currentProduct.image}`}
-                alt={currentProduct.title}
+                src={currentProduct.image}
+                alt={'product image'}
                 width={400}
                 height={400}
                 className="rounded-lg w-full lg:w-[400px] border shadow-md hover:scale-105 transition-all duration-300"

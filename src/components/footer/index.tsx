@@ -29,9 +29,10 @@ const Footer = () => {
         <div className="w-[150px] h-fit overflow-hidden rounded-md  flex items-center">
           {" "}
           <Image
-            src={"/images/logowhite.jpeg"}
+            src={"/images/logo.png"}
             alt="logo"
-            width={160}
+            width={50}
+            className=" rounded-full cursor-pointer"
             quality={100}
             height={70}
           />

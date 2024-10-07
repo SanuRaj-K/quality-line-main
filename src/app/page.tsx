@@ -18,7 +18,7 @@ export default function Home() {
       <Features />
       <Services />
       <Products />
-      <Partneres />
+      {/* <Partneres /> */}
     </main>
   );
 }

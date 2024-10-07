@@ -539,3 +539,134 @@ export const partners = [
     logo: "weber.svg",
   },
 ];
+
+export const productsData = [
+  {
+    id:100,
+    name: "Fuel tanker",
+    description:
+      "A fuel tanker is used to transport liquid fuels such as gasoline, diesel, and other petroleum products.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508642/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-073_dd1vif.jpg",
+  },
+  {
+    id:101,
+    title: "Fuel tanker semi trailer",
+    description:
+      "A fuel tanker semi trailer is designed for the transportation of large quantities of fuel, attached to a semi-truck.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508837/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-066_sq55vi.jpg",
+  },
+  {
+    id:102,
+    title: "Vacuum tanker",
+    description:
+      "A vacuum tanker is used to transport liquids, sludge, and slurries by creating a vacuum to suck in the contents.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508637/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-086_exfnby.jpg",
+  },
+  {
+    id:103,
+    title: "Vacuum tanker semi trailer",
+    description:
+      "A vacuum tanker semi trailer is attached to a truck for transporting waste, sludge, and other liquid materials over long distances.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508946/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-087_cyiz3g.jpg",
+  },
+  {
+    id:104,
+    title: "Water tanker",
+    description:
+      "A water tanker is designed to transport water for various uses such as drinking water, irrigation, and construction.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508639/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-084_kyxfbp.jpg",
+  },
+  {
+    id:105,
+    title: "Water tanker semi trailer",
+    description:
+      "A water tanker semi trailer is attached to a truck to carry large volumes of water, typically used for construction or irrigation.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508642/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-073_dd1vif.jpg",
+  },
+  {
+    id:106,
+    title: "Bitumen tanker semi trailer",
+    description:
+      "A bitumen tanker semi trailer is used to transport bitumen and other asphalt products for road construction.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509104/quality-line/download_wrwsjz.jpg",
+  },
+  {
+    id:107,
+    title: "Storage tanks",
+    description:
+      "Storage tanks are large containers used to store liquids or gases, often used in industrial or commercial settings.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509252/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-067_q3qwlh.jpg",
+  },
+  {
+    id:108,
+    title: "Skid mounted fuel tanker",
+    description:
+      "A kid mounted fuel tanker is a smaller fuel tanker mounted on a vehicle, often used for fuel distribution in smaller areas.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509372/quality-line/SKid_mounted_fuel_tanker_klfjmh.jpg",
+  },
+  {
+    id:109,
+    title: "Flat bed trailer",
+    description:
+      "A flat bed trailer is an open platform trailer commonly used for transporting large or irregularly shaped cargo.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509489/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-038_bxuztj.jpg",
+  },
+  {
+    id:110,
+    title: "Low bed trailer",
+    description:
+      "A low bed trailer is designed to carry heavy equipment and machinery, with a lower deck to accommodate taller loads.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509591/quality-line/Low_bed_traile_ditkmi.jpg",
+  },
+  {
+    id:111,
+    title: "Chemical tanker semi trailer",
+    description:
+      "A chemical tanker semi trailer is designed to transport hazardous chemicals and liquids with special safety features.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509652/quality-line/Chemical_tap14u.jpg",
+  },
+  {
+    id:112,
+    title: "Curtain side trailer",
+    description:
+      "A curtain side trailer has flexible curtains on its sides for easy loading and unloading of cargo.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509743/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-034_khtkqa.jpg",
+  },
+  {
+    id:113,
+    title: "Cargo trailer",
+    description:
+      "A cargo trailer is used to transport goods and materials, often enclosed to protect against weather and theft.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509816/quality-line/Cargo_h62wfm.jpg",
+  },
+  {
+    id:114,
+    title: "Cargo bodies tipper",
+    description:
+      "A cargo bodies tipper is a trailer designed for tipping its contents, used for transporting and unloading bulk materials.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509890/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-004_rg4jwb.jpg",
+  },
+  {
+    id:115,
+    title: "Tipper semi trailer",
+    description:
+      "A tipper semi trailer is used for transporting and dumping large quantities of loose materials like sand and gravel.",
+    image:
+      "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509960/quality-line/Tipper_semi_trailer_ceof9z.jpg",
+  },
+];
