@@ -33,7 +33,7 @@ const AboutPage = () => {
         <About />
       </div>
 
-      <WhyChoose />
+      {/* <WhyChoose /> */}
     </main>
   );
 };
