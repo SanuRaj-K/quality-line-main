@@ -25,9 +25,9 @@ const LandPage = () => {
 
   return (
     <section className="min-h-screen   overflow-hidden bg-black">
-      <div className=" pt-20  w-full h-full">
+      {/* <div className=" pt-20  w-full h-full">
         <SliderBanner />
-      </div>
+      </div> */}
       <ul className="flex  flex-col mt-36 lg:mt-0 lg:flex-row relative min-h-[750px] m-0 p-0 overflow-hidden list-none w-full">
         {artists.slice(0, visibleImages).map((artist, i) => (
           <li
