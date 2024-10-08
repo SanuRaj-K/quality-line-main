@@ -1,4 +1,5 @@
 "use client";
+import SliderBanner from "@/app/service/banner/Slider";
 import { artists } from "@/constants";
 import React, { useEffect, useState } from "react";
 const LandPage = () => {
@@ -24,11 +25,16 @@ const LandPage = () => {
 
   return (
     <section className="min-h-screen   overflow-hidden bg-black">
+      <div className=" pt-20  w-full h-full">
+        {/* <SliderBanner /> */}
+      </div>
       <ul className="flex  flex-col mt-36 lg:mt-0 lg:flex-row relative min-h-[750px] m-0 p-0 overflow-hidden list-none w-full">
         {artists.slice(0, visibleImages).map((artist, i) => (
           <li
             key={i}
-            style={{ backgroundImage: `url(/images/${artist.backgroundUrl})` }}
+            style={{
+              backgroundImage: `url(assets/images/${artist.backgroundUrl})`,
+            }}
             role="button"
             className={`flex flex-1 items-stretch cursor-pointer  transition-all duration-300 relative bg-cover bg-no-repeat bg-top overflow-hidden ${
               active === i ? "flex-[6] cursor-default" : ""

@@ -40,9 +40,9 @@ const Features = () => {
           </h4>
           <div className="flex flex-col gap-y-7">
             <p>
-              Here at Quality Line, we are showcasing our long-standing presence,
-              commitment to quality, dedication to customer satisfaction, and
-              adaptability to industry changes.
+              Here at Quality Line, we are showcasing our long-standing
+              presence, commitment to quality, dedication to customer
+              satisfaction, and adaptability to industry changes.
             </p>
             <hr className="opacity-30" />
           </div>
@@ -54,8 +54,8 @@ const Features = () => {
                 <Image
                   src={"/icon.svg"}
                   alt="icon"
-                  width={112}
-                  height={90}
+                  width={92}
+                  height={50}
                   className="absolute bottom-[22px] opacity-65 right-[50px]"
                 />
               </Magnet>
@@ -67,7 +67,10 @@ const Features = () => {
                   30 years of quality and <br /> successful projects
                 </h4>
                 <p className="mt-4 text-gray-800 leading-7 text-sm font-medium">
-                   We have more than 30 years Experience in the auto industry  and during this long "innings" We must admit that we have been exposed to all the intricate areas of expertise where an automobile is concerned
+                  We have more than 30 years Experience in the auto industry and
+                  during this long "innings" We must admit that we have been
+                  exposed to all the intricate areas of expertise where an
+                  automobile is concerned.
                 </p>
                 <button className="mt-10 inline-block rounded hover:bg-white hover:text-black   btn px-12 py-3 text-sm font-medium text-blue-400  bg-gray-800">
                   Get in Touch

@@ -1,32 +1,31 @@
 export const artists = [
   {
-    name: "Excellence in Every Build",
-    description: `At Top Support, we bring your construction dreams to life with meticulous attention to detail and a commitment to excellence. Discover how our expertise and dedication make every project a success.`,
-
-    backgroundUrl: "waterProof.jpg",
+    name: "Custom Automobile Fabrication",
+    description: `We specialize in custom automobile fabrication, transforming concepts into reality. From chassis design to complete builds, our precision ensures high-performance vehicles tailored to your needs.`,
+    backgroundUrl: "slider9.jpg",
   },
   {
-    name: "Cutting-Edge Technology",
-    description: `Stay ahead with our advanced technological solutions. From state-of-the-art tools to the latest construction technologies, we ensure your projects benefit from the best in the industry.`,
-
-    backgroundUrl: "tech.jpeg",
+    name: "Advanced Welding for Vehicles",
+    description: `Our advanced welding techniques ensure the structural integrity and durability of all automotive components. Trust our expertise to deliver top-quality results for your custom vehicle fabrication.`,
+    backgroundUrl: "slider2.jpg",
   },
   {
-    name: "Sustainable Solutions",
-    description: `We are committed to a sustainable future with innovative green energy solutions. Explore our eco-friendly options designed to reduce environmental impact and enhance efficiency.`,
-    backgroundUrl: "foarm.jpg",
+    name: "High-Performance Auto Parts",
+    description: `We manufacture high-performance automotive parts with precision and quality. From exhaust systems to suspension components, our fabrications are designed for optimal performance on the road.`,
+    backgroundUrl: "slider3.jpg",
   },
   {
-    name: "High-Quality Products",
-    description: `Our extensive range of high-grade construction products is designed to meet your needs with precision. Explore our selection of chemicals, waterproofing materials, and more.`,
-    backgroundUrl: "IMG-20240812-WA0052.jpg",
+    name: "Complete Auto Fabrication Services",
+    description: `Offering end-to-end automobile fabrication services, we cover every aspect of the process, from design to assembly. Our comprehensive solutions bring your automotive vision to life with expert craftsmanship.`,
+    backgroundUrl: "slider8.jpg",
   },
   {
-    name: "Skilled Professionals",
-    description: `Our team of highly skilled professionals is dedicated to delivering top-notch results. Learn more about the experts behind our success and how their expertise drives our projects forward`,
-    backgroundUrl: "folio_6.jpg",
+    name: "Steel Fabrication and Welding Experts",
+    description: `Beyond automobiles, our expertise extends to a variety of steel fabrication and welding services. Learn more about how we deliver excellence in industrial steel structures and custom metalwork.`,
+    backgroundUrl: "slider5.jpg",
   },
 ];
+
 
 export const navabar = [
   {
@@ -60,6 +59,7 @@ import RecyclingIcon from "@mui/icons-material/Recycling";
 import MemoryIcon from "@mui/icons-material/Memory";
 import HandymanIcon from "@mui/icons-material/Handyman";
 import EngineeringIcon from "@mui/icons-material/Engineering";
+
 export const whychoosesData = [
   {
     id: 1,
@@ -670,3 +670,13 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509960/quality-line/Tipper_semi_trailer_ceof9z.jpg",
   },
 ];
+
+
+import slider1 from '../../public/assets/images/slider1.jpg'
+import slider2 from '../../public/assets/images/slider2.jpg'
+import slider4 from '../../public/assets/images/slider4.jpg'
+import slider3 from '../../public/assets/images/slider3.jpg'
+
+export const bannerImgeData=[slider4,slider2,slider3]
+
+export const bannerMobileSlider=[slider1,slider2,slider3]

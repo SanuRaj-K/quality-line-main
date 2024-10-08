@@ -12,9 +12,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title:
-    "Quality Line- Leading Experts in Construction & Contracting | Quality Solutions & Innovative Technologies",
+    "Quality Line- Leading Experts in Welding & Automoblie | Quality Solutions & Innovative Technologies",
   description:
-    "Top Support is a trusted leader in construction and contracting with over 25 years of experience. We offer high-quality solutions, from construction chemicals to advanced waterproofing systems, with a focus on excellence, innovation, and customer satisfaction. Discover our comprehensive services and expert team dedicated to delivering exceptional results.",
+    "Top Support is a trusted leader in Welding and Automobile with over 30 years of experience. We offer high-quality solutions, from vechicle  body to advanced  systems, with a focus on excellence, innovation, and customer satisfaction. Discover our comprehensive services and expert team dedicated to delivering exceptional results.",
   keywords: [
     "construction solutions",
     "waterproofing systems",
