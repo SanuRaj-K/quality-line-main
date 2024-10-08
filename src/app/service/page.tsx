@@ -154,14 +154,14 @@ const Services = () => {
 export default Services;
 
 export const metadata: Metadata = {
-  title: "Top Support Services | Comprehensive Construction Solutions",
+  title: "Quality Line | Steel and Welding Workshop LLC ",
   description:
-    "Explore Top Support's wide range of construction services, including waterproofing, injection grouting, flooring, and more. Expert solutions for every project.",
+    "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   alternates: {
     canonical: "https://www.topsupportsa.com/services",
   },
   openGraph: {
-    title: "Top Support - Comprehensive Construction Services",
+    title: "Quality Line - Comprehensive automobile Services",
     description:
       "Discover our extensive range of construction services. From waterproofing to rehabilitation, we offer expert solutions for all your project needs.",
   },
