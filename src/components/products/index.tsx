@@ -95,7 +95,7 @@ const Column = ({ images, y, top }: any) => {
           >
             <Image
               src={`/assets/images/${src}`}
-              alt="image"
+              alt={src}
               fill
               className="object-cover"
             />
