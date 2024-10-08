@@ -79,7 +79,7 @@ const Features = () => {
             </div>
             <div className="flex-1 hidden lg:flex bg-black   items-center justify-center  overflow-hidden">
               <Image
-                src={"/images/fact.jpg"}
+                src={"/assets/images/slider9.jpg"}
                 alt="feature card "
                 width={600}
                 height={700}
