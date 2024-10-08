@@ -29,8 +29,8 @@ const Navbar = () => {
           </div>
         </Link>
         <ul className="hidden md:flex items-center gap-10 font-semibold text-xs">
-          {navabar.map((item) => (
-            <Link href={item.path}>
+          {navabar.map((item, index) => (
+            <Link key={index} href={item.path}>
               <Magnet>
                 <li
                   key={item.id}

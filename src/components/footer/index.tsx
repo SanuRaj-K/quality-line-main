@@ -38,9 +38,9 @@ const Footer = () => {
           />
         </div>
         <ul className="flex py-6 md:py-0 items-center gap-7 ">
-          {navabar.map((item) => (
+          {navabar.map((item, index) => (
             <Magnet>
-              <Link href={item.path} key={item.id}>
+              <Link  href={item.path} key={index}>
                 <li
                   key={item.id}
                   className={` ${

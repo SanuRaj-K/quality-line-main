@@ -676,7 +676,12 @@ import slider1 from '../../public/assets/images/slider1.jpg'
 import slider2 from '../../public/assets/images/slider2.jpg'
 import slider4 from '../../public/assets/images/slider4.jpg'
 import slider3 from '../../public/assets/images/slider3.jpg'
+import bannerSlider1 from '../../public/assets/images/bannerSlider1.png'
+import bannerSlider2 from '../../public/assets/images/bannerSlider2.png'
+import bannerSlider3 from '../../public/assets/images/bannerSlider3.png'
 
-export const bannerImgeData=[slider4,slider2,slider3]
+
+
+export const bannerImgeData=[bannerSlider1,bannerSlider3,bannerSlider2]
 
 export const bannerMobileSlider=[slider1,slider2,slider3]

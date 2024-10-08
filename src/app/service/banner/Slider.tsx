@@ -44,9 +44,9 @@ function SliderBanner() {
     visible: { opacity: 1, y: 0 }, 
   };
   return (
-    <div className="w-full   mb-40  h-full lg:h-[550px] bg-white relative">
+    <div className="w-full   lg:mb-40  h-full lg:h-[550px] bg-white relative">
       <Image
-        className="  w-full h-[500px] "
+        className="  w-full h-[600px] "
         src={sliderImg}
         alt="sliderimage"
       />
