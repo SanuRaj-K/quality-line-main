@@ -59,17 +59,17 @@ const Products = () => {
 export default Products;
 
 export const metadata: Metadata = {
-  title: "Top Support Products | High-Quality Construction Materials",
+  title: "Quality Line | Steel and Welding Workshop LLC ",
   description:
-    "Browse Top Support's premium construction products, including PVC waterstoppers, geotextiles, fiber admixtures, and more. Quality materials for superior results.",
+    "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   alternates: {
-    canonical: "https://www.topsupportsa.com/products",
+    canonical: "",
   },
   openGraph: {
-    title: "Top Support - Premium Construction Products",
+    title: "Quality Line - Comprehensive automobile Services",
     description:
-      "Explore our range of high-quality construction products. From PVC waterstoppers to construction chemicals, we provide materials that ensure project success.",
+      "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   },
   keywords:
-    "Construction Products, PVC Waterstopper, Geotextiles, Fiber Admixture, Construction Chemicals, Waterproofing Materials, Expansion Joint Tape",
+    "Automobile Body Fabrication, Vehicle Body Manufacturing, Steel Fabrication, Welding Workshop, Tank Fabrication, Tipper Manufacturing, Semi Trailer Fabrication, Cargo Bodies, Dry Box Bodies, Water Bottle Carrier Fabrication, Mobile Workshop Unit, Custom Vehicle Bodies, Al Quoz Industrial Area, Dubai Fabricators, Auto Industry Experts, Quality Line Steel & Welding Workshop",
 };

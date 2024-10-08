@@ -129,17 +129,17 @@ const Card = ({ title, id, Icon, children }: any) => {
 };
 
 export const metadata: Metadata = {
-  title: "Contact Top Support | Your Trusted Construction Partner",
+  title: "Quality Line | Steel and Welding Workshop LLC ",
   description:
-    "Get in touch with Top Support for expert construction solutions. We're here to answer your questions and provide top-notch support for your projects.",
+    "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   alternates: {
-    canonical: "https://www.topsupportsa.com/contact",
+    canonical: "",
   },
   openGraph: {
-    title: "Contact Top Support - Expert Construction Solutions",
+    title: "Quality Line - Comprehensive automobile Services",
     description:
-      "Reach out to Top Support for all your construction needs. Our team of experts is ready to assist you with tailored solutions and support.",
+      "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   },
   keywords:
-    "Contact Top Support, Construction Consultation, Project Inquiry, Construction Support, Expert Advice, Construction Solutions",
+    "Automobile Body Fabrication, Vehicle Body Manufacturing, Steel Fabrication, Welding Workshop, Tank Fabrication, Tipper Manufacturing, Semi Trailer Fabrication, Cargo Bodies, Dry Box Bodies, Water Bottle Carrier Fabrication, Mobile Workshop Unit, Custom Vehicle Bodies, Al Quoz Industrial Area, Dubai Fabricators, Auto Industry Experts, Quality Line Steel & Welding Workshop",
 };

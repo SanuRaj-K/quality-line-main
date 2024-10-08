@@ -158,13 +158,13 @@ export const metadata: Metadata = {
   description:
     "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   alternates: {
-    canonical: "https://www.topsupportsa.com/services",
+    canonical: "",
   },
   openGraph: {
     title: "Quality Line - Comprehensive automobile Services",
     description:
-      "Discover our extensive range of construction services. From waterproofing to rehabilitation, we offer expert solutions for all your project needs.",
+      "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   },
   keywords:
-    "Construction Services, Waterproofing, Injection Grouting, Flooring, Repair and Rehabilitation, Thermal Insulation, Expansion Joint Treatment",
+    "Automobile Body Fabrication, Vehicle Body Manufacturing, Steel Fabrication, Welding Workshop, Tank Fabrication, Tipper Manufacturing, Semi Trailer Fabrication, Cargo Bodies, Dry Box Bodies, Water Bottle Carrier Fabrication, Mobile Workshop Unit, Custom Vehicle Bodies, Al Quoz Industrial Area, Dubai Fabricators, Auto Industry Experts, Quality Line Steel & Welding Workshop",
 };

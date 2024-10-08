@@ -41,17 +41,17 @@ const AboutPage = () => {
 export default AboutPage;
 
 export const metadata: Metadata = {
-  title: "Top Support - Excellence in Construction Solutions | About Us",
+  title: "Quality Line | Steel and Welding Workshop LLC ",
   description:
-    "Discover Top Support's 25-year journey of innovation and excellence in construction. Learn about our collaborative approach and commitment to quality.",
+    "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   alternates: {
-    canonical: "https://www.topsupportsa.com/about",
+    canonical: "",
   },
   openGraph: {
-    title: "Top Support - Leading Construction Solutions Provider",
+    title: "Quality Line - Comprehensive automobile Services",
     description:
-      "Join Top Support's journey of innovation and excellence in construction. Learn how our expertise transforms projects and delivers lasting results.",
+      "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
   },
   keywords:
-    "Construction Solutions, Top Support, Industry Expertise, Collaborative Approach, Construction Innovation, Quality Construction",
+    "Automobile Body Fabrication, Vehicle Body Manufacturing, Steel Fabrication, Welding Workshop, Tank Fabrication, Tipper Manufacturing, Semi Trailer Fabrication, Cargo Bodies, Dry Box Bodies, Water Bottle Carrier Fabrication, Mobile Workshop Unit, Custom Vehicle Bodies, Al Quoz Industrial Area, Dubai Fabricators, Auto Industry Experts, Quality Line Steel & Welding Workshop",
 };

@@ -4,38 +4,26 @@ import "./globals.css";
 import Navbar from "@/components/navabar";
 import Footer from "@/components/footer";
 import WhatsappIcon from "@/components/whatssap";
-
+ 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title:
-    "Quality Line- Leading Experts in Welding & Automoblie | Quality Solutions & Innovative Technologies",
+  title: "Quality Line | Steel and Welding Workshop LLC ",
+
   description:
-    "Top Support is a trusted leader in Welding and Automobile with over 30 years of experience. We offer high-quality solutions, from vechicle  body to advanced  systems, with a focus on excellence, innovation, and customer satisfaction. Discover our comprehensive services and expert team dedicated to delivering exceptional results.",
-  keywords: [
-    "construction solutions",
-    "waterproofing systems",
-    "geosynthetics",
-    "construction chemicals",
-    "fiber mesh",
-    "PVC materials",
-    "construction products",
-    "Top Support",
-    "construction contracting",
-    "building materials",
-    "technical support",
-    "construction innovation",
-    "high-quality construction products",
-  ],
+    "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
+  keywords:
+    "Automobile Body Fabrication, Vehicle Body Manufacturing, Steel Fabrication, Welding Workshop, Tank Fabrication, Tipper Manufacturing, Semi Trailer Fabrication, Cargo Bodies, Dry Box Bodies, Water Bottle Carrier Fabrication, Mobile Workshop Unit, Custom Vehicle Bodies, Al Quoz Industrial Area, Dubai Fabricators, Auto Industry Experts, Quality Line Steel & Welding Workshop",
+
   openGraph: {
-    title:
-      "Top Support - Leading Construction Solutions | Waterproofing, Geosynthetics & More",
+    title: "Quality Line - Comprehensive automobile Services",
     description:
-      "Discover Top Support’s extensive range of construction solutions with over 25 years of industry expertise. From advanced waterproofing systems and geosynthetics to high-quality construction chemicals, we provide innovative products and exceptional service for all your construction needs.",
-    images: "/Icon.svg",
+      "Explore Qulaity Line's wide range of Automobile services, including auto industry, and mobile workshop unit. Expert solutions for every project.",
+
+    images: '/Icon.png',
   },
 };
 
@@ -46,6 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       
       <body className={poppins.className}>
         <Navbar />
         {children}
