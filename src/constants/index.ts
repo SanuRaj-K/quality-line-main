@@ -17,7 +17,7 @@ export const artists = [
   {
     name: "Complete Auto Fabrication Services",
     description: `Offering end-to-end automobile fabrication services, we cover every aspect of the process, from design to assembly. Our comprehensive solutions bring your automotive vision to life with expert craftsmanship.`,
-    backgroundUrl: "slider8.jpg",
+    backgroundUrl: "slider1.jpg",
   },
   {
     name: "Steel Fabrication and Welding Experts",
