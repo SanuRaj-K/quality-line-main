@@ -50,7 +50,7 @@ const LandPage = () => {
               className={`font-semibold text-white/70  whitespace-nowrap absolute  top-7 lg:top-auto bottom-28 z-10 left-1/2 transition-all transform ${
                 active === i
                   ? "opacity-0 top-[200%]"
-                  : "-translate-x-1/2  -translate-y-1/2 lg:-translate-y-[100px]  lg:-rotate-90 transition-all duration-500 text-xl lg:text-3xl uppercase"
+                  : "-translate-x-1/2  mb-14 -translate-y-1/2 lg:-translate-y-[100px]  lg:-rotate-90 transition-all duration-500 text-xl lg:text-3xl uppercase"
               }`}
             >
               {artist.name}
