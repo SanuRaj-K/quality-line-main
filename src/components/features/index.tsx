@@ -50,7 +50,7 @@ const Features = () => {
         <div className="mt-0  rounded-lg overflow-hidden shadow-xl h-full lg:h-[100vh] flex flex-col justify-between">
           <div className="flex flex-col lg:flex-row h-full ">
             <div className="flex-initial w-full py-7 lg:py-0 lg:w-[45%] bg-blue-400 relative   flex items-center justify-center">
-              <Magnet>
+              {/* <Magnet>
                 <Image
                   src={"/icon.svg"}
                   alt="icon"
@@ -58,7 +58,7 @@ const Features = () => {
                   height={50}
                   className="absolute bottom-[22px] opacity-65 right-[50px]"
                 />
-              </Magnet>
+              </Magnet> */}
               <div className=" w-full px-8">
                 <h6 className="font-semibold text-gray-600 text-sm">
                   MORE ABOUT US
