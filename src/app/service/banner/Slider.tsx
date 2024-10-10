@@ -80,17 +80,17 @@ function SliderBanner() {
       </div>
        
       <div>
-        <div className=" w-full sm:flex hidden  justify-center">
+        <div className=" w-full sm:flex hidden    justify-center">
           <ul className=" grid   grid-cols-3    place-items-center     z-20 absolute top-[490px]">
             {bannerImgeData.map((item, index) => (
               <li key={index}>
-                <div className="w-full mx-6 ">
+                <div className="w-full  mx-6 ">
                   <div
                     onClick={() => setSliderIndex(index)}
                     className="relative cursor-pointer w-[200px] h-[150px] lg:w-[300px] lg:h-[200px]"
                   >
                     <Image
-                      className="w-full h-full object-cover"
+                      className="w-full rounded-md h-full object-cover"
                       src={item}
                       alt="Service"
                     />

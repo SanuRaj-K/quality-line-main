@@ -26,6 +26,24 @@ export const artists = [
   },
 ];
 
+export const statsCount = [
+  {
+    title: "Finished Project",
+    count: "461",
+  },
+  {
+    title: "Happy Customers",
+    count: "585",
+  },
+  {
+    title: "Year on the market",
+    count: "30",
+  },
+  {
+    title: "Skilled Professionals",
+    count: "35",
+  },
+];
 
 export const navabar = [
   {
@@ -312,7 +330,6 @@ export const service = [
   },
 ];
 
-
 export const partners = [
   {
     title: "Bitmat",
@@ -368,7 +385,7 @@ export const partners = [
 
 export const productsData = [
   {
-    id:100,
+    id: 100,
     title: "Fuel tanker",
     description:
       "A fuel tanker is used to transport liquid fuels such as gasoline, diesel, and other petroleum products.",
@@ -376,7 +393,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508642/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-073_dd1vif.jpg",
   },
   {
-    id:101,
+    id: 101,
     title: "Fuel tanker semi trailer",
     description:
       "A fuel tanker semi trailer is designed for the transportation of large quantities of fuel, attached to a semi-truck.",
@@ -384,7 +401,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508837/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-066_sq55vi.jpg",
   },
   {
-    id:102,
+    id: 102,
     title: "Vacuum tanker",
     description:
       "A vacuum tanker is used to transport liquids, sludge, and slurries by creating a vacuum to suck in the contents.",
@@ -392,7 +409,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508637/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-086_exfnby.jpg",
   },
   {
-    id:103,
+    id: 103,
     title: "Vacuum tanker semi trailer",
     description:
       "A vacuum tanker semi trailer is attached to a truck for transporting waste, sludge, and other liquid materials over long distances.",
@@ -400,7 +417,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508946/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-087_cyiz3g.jpg",
   },
   {
-    id:104,
+    id: 104,
     title: "Water tanker",
     description:
       "A water tanker is designed to transport water for various uses such as drinking water, irrigation, and construction.",
@@ -408,7 +425,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508639/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-084_kyxfbp.jpg",
   },
   {
-    id:105,
+    id: 105,
     title: "Water tanker semi trailer",
     description:
       "A water tanker semi trailer is attached to a truck to carry large volumes of water, typically used for construction or irrigation.",
@@ -416,7 +433,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727508642/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-073_dd1vif.jpg",
   },
   {
-    id:106,
+    id: 106,
     title: "Bitumen tanker semi trailer",
     description:
       "A bitumen tanker semi trailer is used to transport bitumen and other asphalt products for road construction.",
@@ -424,7 +441,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509104/quality-line/download_wrwsjz.jpg",
   },
   {
-    id:107,
+    id: 107,
     title: "Storage tanks",
     description:
       "Storage tanks are large containers used to store liquids or gases, often used in industrial or commercial settings.",
@@ -432,7 +449,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509252/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-067_q3qwlh.jpg",
   },
   {
-    id:108,
+    id: 108,
     title: "Skid mounted fuel tanker",
     description:
       "A kid mounted fuel tanker is a smaller fuel tanker mounted on a vehicle, often used for fuel distribution in smaller areas.",
@@ -440,7 +457,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509372/quality-line/SKid_mounted_fuel_tanker_klfjmh.jpg",
   },
   {
-    id:109,
+    id: 109,
     title: "Flat bed trailer",
     description:
       "A flat bed trailer is an open platform trailer commonly used for transporting large or irregularly shaped cargo.",
@@ -448,7 +465,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509489/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-038_bxuztj.jpg",
   },
   {
-    id:110,
+    id: 110,
     title: "Low bed trailer",
     description:
       "A low bed trailer is designed to carry heavy equipment and machinery, with a lower deck to accommodate taller loads.",
@@ -456,7 +473,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509591/quality-line/Low_bed_traile_ditkmi.jpg",
   },
   {
-    id:111,
+    id: 111,
     title: "Chemical tanker semi trailer",
     description:
       "A chemical tanker semi trailer is designed to transport hazardous chemicals and liquids with special safety features.",
@@ -464,7 +481,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509652/quality-line/Chemical_tap14u.jpg",
   },
   {
-    id:112,
+    id: 112,
     title: "Curtain side trailer",
     description:
       "A curtain side trailer has flexible curtains on its sides for easy loading and unloading of cargo.",
@@ -472,7 +489,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509743/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-034_khtkqa.jpg",
   },
   {
-    id:113,
+    id: 113,
     title: "Cargo trailer",
     description:
       "A cargo trailer is used to transport goods and materials, often enclosed to protect against weather and theft.",
@@ -480,7 +497,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509816/quality-line/Cargo_h62wfm.jpg",
   },
   {
-    id:114,
+    id: 114,
     title: "Cargo bodies tipper",
     description:
       "A cargo bodies tipper is a trailer designed for tipping its contents, used for transporting and unloading bulk materials.",
@@ -488,7 +505,7 @@ export const productsData = [
       "https://res.cloudinary.com/dgoermgtp/image/upload/v1727509890/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-004_rg4jwb.jpg",
   },
   {
-    id:115,
+    id: 115,
     title: "Tipper semi trailer",
     description:
       "A tipper semi trailer is used for transporting and dumping large quantities of loose materials like sand and gravel.",
@@ -497,17 +514,14 @@ export const productsData = [
   },
 ];
 
+import slider1 from "../../public/assets/images/slider1.jpg";
+import slider2 from "../../public/assets/images/slider2.jpg";
+import slider4 from "../../public/assets/images/slider4.jpg";
+import slider3 from "../../public/assets/images/slider3.jpg";
+import bannerSlider1 from "../../public/assets/images/bannerSlider1.png";
+import bannerSlider2 from "../../public/assets/images/bannerSlider2.png";
+import bannerSlider3 from "../../public/assets/images/bannerSlider3.png";
 
-import slider1 from '../../public/assets/images/slider1.jpg'
-import slider2 from '../../public/assets/images/slider2.jpg'
-import slider4 from '../../public/assets/images/slider4.jpg'
-import slider3 from '../../public/assets/images/slider3.jpg'
-import bannerSlider1 from '../../public/assets/images/bannerSlider1.png'
-import bannerSlider2 from '../../public/assets/images/bannerSlider2.png'
-import bannerSlider3 from '../../public/assets/images/bannerSlider3.png'
+export const bannerImgeData = [bannerSlider1, bannerSlider3, bannerSlider2];
 
-
-
-export const bannerImgeData=[bannerSlider1,bannerSlider3,bannerSlider2]
-
-export const bannerMobileSlider=[slider1,slider2,slider3]
+export const bannerMobileSlider = [slider1, slider2, slider3];
