@@ -57,7 +57,7 @@ const LandPage = () => {
                   : "-translate-x-1/2   -translate-y-1/2 lg:-translate-y-[140px] text-start lg:-rotate-90 transition-all duration-500 text-xl lg:text-2xl uppercase"
               }`}
             >
-              <span className=" mr-2  text-white text-3xl   ">{i + 1}</span>
+              <span className=" mr-2  text-white lg:text-3xl   ">{i + 1}</span>
               {artist.name}
             </h3>
              <div
