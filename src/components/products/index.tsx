@@ -9,7 +9,7 @@ const images = [
   "slider2.jpg",
   "slider3.jpg",
   "slider4.jpg",
-  "slider1.jpg",
+  "slider3.jpg",
   "slider6.jpg",
   "slider2.jpg",
   "slider8.jpg",
