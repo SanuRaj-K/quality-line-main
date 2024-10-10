@@ -50,7 +50,7 @@ function SliderBanner() {
         src={sliderImg}
         alt="sliderimage"
       />
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute lg:h-[600px]  inset-0 bg-black opacity-50"></div>
 
       <div className="lg:pl-20 text-center lg:text-start px-5 md:px-0  text-white absolute top-[200px]      lg:top-[150px] ">
         <motion.h1
@@ -81,7 +81,7 @@ function SliderBanner() {
        
       <div>
         <div className=" w-full sm:flex hidden  justify-center">
-          <ul className=" grid   grid-cols-3    place-items-center     z-20 absolute top-[440px]">
+          <ul className=" grid   grid-cols-3    place-items-center     z-20 absolute top-[490px]">
             {bannerImgeData.map((item, index) => (
               <li key={index}>
                 <div className="w-full mx-6 ">
