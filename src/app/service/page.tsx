@@ -12,7 +12,7 @@ const Services = () => {
       <Header
         title="OUR SERVICES"
         desc="At Quality Line, we're here to transform your aspirations into achievements."
-        image="bg_4.jpeg"
+        image="slider8.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">

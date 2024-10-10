@@ -67,7 +67,7 @@ const Contact = () => {
               Give us a call
             </p>
 
-            <h5 className="text-sm mt-3 ">KSA:</h5>
+            <h5 className="text-sm mt-3 ">UAE:</h5>
             <a
               href="tel:+9660503513353"
               className="text-sm text-blue-400 hover:text-black transition-all duration-300 cursor-pointer font-medium  leading-6 pr-2 mt-2  "

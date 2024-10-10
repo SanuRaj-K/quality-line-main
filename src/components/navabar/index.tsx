@@ -22,7 +22,7 @@ const Navbar = () => {
             <Image
               src={"/images/logo.png"}
               alt="logo"
-              width={30}
+              width={50}
               quality={100}
               height={70}
             />

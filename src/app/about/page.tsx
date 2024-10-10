@@ -9,10 +9,13 @@ const AboutPage = () => {
   return (
     <main className="min-h-screen  ">
       <Header
+      
         title="ABOUT"
         desc=" Building Strength, Precision, and Quality – Your Trusted Partner in Steel Fabrication and Welding Solutions"
         image="slider1.jpg"
       />
+      <div>
+      </div>
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
