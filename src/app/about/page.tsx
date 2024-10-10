@@ -1,7 +1,9 @@
 import About from "@/components/about";
 import Header from "@/components/common/header";
 import WhyChoose from "@/components/whychoose";
+import { vissionAndMission } from "@/constants";
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -9,13 +11,11 @@ const AboutPage = () => {
   return (
     <main className="min-h-screen  ">
       <Header
-      
         title="ABOUT"
         desc=" Building Strength, Precision, and Quality – Your Trusted Partner in Steel Fabrication and Welding Solutions"
         image="slider1.jpg"
       />
-      <div>
-      </div>
+      <div></div>
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">
           <ul className="flex items-center text-xs gap-4">
@@ -37,6 +37,24 @@ const AboutPage = () => {
       </div>
 
       {/* <WhyChoose /> */}
+
+      <div className=" pb-9">
+        <h1 className=" text-center uppercase text-[30px]  font-bold">
+          Vission and Mission
+        </h1>
+
+        <ul className=" flex     mt-10 items-center content-center   justify-center">
+          {vissionAndMission.map((item, index) => (
+            <li className="   " key={index}>
+              <div className=" inline-flex  cursor-pointer flex-col hover:bg-black group mr-5  transition-all duration-700 items-center rounded-md p-5 bg-[#f9fafb] w-[250px] h-[220px] ">
+                <Image className="  group-hover:bg-white  rounded-full p-2" quality={100} width={50} src={item.icon} alt={item.title} />
+                <h1 className=" my-3 group-hover:text-white text-[26px] font-semibold uppercase">{item.title}</h1>
+                 <p className="  group-hover:text-white  text-center">{item.desc}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </main>
   );
 };

@@ -7,6 +7,8 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { Branches } from "@/components/contact/Branches";
+import { branches } from "@/constants";
 const Contact = () => {
   return (
     <main className="min-h-screen">
@@ -97,6 +99,27 @@ const Contact = () => {
               </a>
             </div>
           </Card>
+        </div>
+        <div className="my-16">
+        <h1 className=" text-[26px] uppercase font-semibold text-center my-8">
+              Our Branches
+            </h1>
+          <ul className="  grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2  gap-5 place-items-center">
+
+           
+            {branches.map((item, index) => (
+              <li className=" my-3 lg:m-0" key={index}>
+                <Branches
+                id={index+1}
+                  title={item.title}
+                  icon={item.logo}
+                  fax={item.fax}
+                  email={item.email}
+                  phone={item.telephone}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </main>

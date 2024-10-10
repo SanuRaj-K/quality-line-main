@@ -73,6 +73,46 @@ export const navabar = [
   },
 ];
 
+import vission from "../../public/assets/icons/shared-vision.png";
+import mission from "../../public/assets/icons/mission.png";
+
+export const branches = [
+  {
+    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511403/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-123_jpsu9l.jpg",
+    title: "Al –Quoz Industrial Area-4, Dubai , U.A.E",
+    telephone: "04 3409133",
+    fax: "+971 4 3409411",
+    email: "team008@eim.ae",
+  },
+  {
+    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511331/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-125_ifxolo.jpg",
+    title: "Sajja’h Industrial Area, Sharjah , U.A.E ",
+    telephone: "+971 4 3470009",
+    fax: "+971 4 3411127",
+    email: "aljawdametal@eim.ae",
+  },
+  {
+    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511329/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-124_miivxb.jpg",
+    title:
+      "Transtek Engineering & Manufacturing Industries, Kanjikode, Palakkad (Dist), Kerala (State), INDIA",
+    telephone: " +91 491 2567230",
+    fax: "false",
+    email: "info@teamengg.com",
+  },
+];
+export const vissionAndMission = [
+  {
+    icon: vission,
+    title: "Vision",
+    desc: "To be a leader in the Automobile Service Industry in UAE by 2030",
+  },
+  {
+    icon: mission,
+    title: "Mission",
+    desc: "Time is Money – Utilize the Client’s money in the best possible ways.",
+  },
+];
+
 import RecyclingIcon from "@mui/icons-material/Recycling";
 import MemoryIcon from "@mui/icons-material/Memory";
 import HandymanIcon from "@mui/icons-material/Handyman";
