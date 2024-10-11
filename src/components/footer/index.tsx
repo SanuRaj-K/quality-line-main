@@ -27,6 +27,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col mt-10 md:flex-row items-center justify-between text-xs px-5 max-w-screen-xl mx-auto h-full">
         <div className="w-[150px] h-fit overflow-hidden rounded-md  flex items-center">
+          <a href="/">
           {" "}
           <Image
             src={"/images/logo.png"}
@@ -36,6 +37,7 @@ const Footer = () => {
             quality={100}
             height={70}
           />
+          </a>
         </div>
         <ul className="flex py-6 md:py-0 items-center gap-7 ">
           {navabar.map((item, index) => (
