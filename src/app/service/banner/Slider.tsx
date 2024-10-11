@@ -37,7 +37,7 @@ function SliderBanner() {
 
   const sliderImg = isMobile
     ? bannerMobileSlider[sliderIndex]
-    : bannerImgeData[sliderIndex];
+    : bannerImgeData[sliderIndex].image;
 
   const headingVariants = {
     hidden: { opacity: 0, y: -20 }, 
@@ -50,7 +50,7 @@ function SliderBanner() {
         src={sliderImg}
         alt="sliderimage"
       />
-      <div className="absolute lg:h-[600px]  inset-0 bg-black opacity-50"></div>
+      {/* <div className="absolute lg:h-[600px]  inset-0 bg-black opacity-50"></div> */}
 
       <div className="lg:pl-20 text-center lg:text-start px-5 md:px-0 md:w-full md:mx-auto      text-white absolute top-[200px]      lg:top-[150px] ">
         <motion.h1
@@ -59,7 +59,7 @@ function SliderBanner() {
           exit="hidden"
           variants={headingVariants}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="font-bold  transition-all duration-1000  text-[22px] lg:text-[30px] lg:max-w-[500px] uppercase"
+          className="font-bold rounded-sm p-1  bg-black/50 mb-4 transition-all duration-1000  text-[22px] lg:text-[30px] lg:max-w-[500px] uppercase"
         >
           {sliderIndex === 1
             ? " Where Steel Meets Strength and Precision"
@@ -71,7 +71,7 @@ function SliderBanner() {
           exit="hidden"
           variants={headingVariants}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="lg:mt-1 md:w-full md:mx-auto  lg:mx-0  transition-all duration-1000 mt-3 max-w-[600px]"
+          className="lg:mt-1 md:w-full bg-black/50 rounded-sm  md:mx-auto  lg:mx-0 p-2  transition-all duration-1000   max-w-[600px]"
         >
           {sliderIndex === 1
             ? "From custom designs to large-scale industrial projects, we specialize in durable steel solutions tailored to meet your unique needs."
@@ -81,7 +81,7 @@ function SliderBanner() {
        
       <div>
         <div className=" w-full sm:flex hidden    justify-center">
-          <ul className=" grid   grid-cols-3    place-items-center     z-20 absolute top-[490px]">
+          <ul className=" grid   grid-cols-3    place-items-center     z-20 absolute top-[550px]">
             {bannerImgeData.map((item, index) => (
               <li key={index}>
                 <div className="w-full  mx-6 ">
@@ -91,7 +91,7 @@ function SliderBanner() {
                   >
                     <Image
                       className="w-full rounded-md h-full object-cover"
-                      src={item}
+                      src={item.image}
                       alt="Service"
                     />
                     <div className="absolute inset-0 bg-black opacity-20"></div>
@@ -100,10 +100,9 @@ function SliderBanner() {
                       <div className="bg-blue-700 text-xs p-1 px-3 mb-2">
                         BEST
                       </div>
-                      <h1 className="text-center text-2xl font-bold">
-                        FLEXIBLE
-                        <br />
-                        SERVICE REGIME
+                      
+                      <h1 className="text-center px-1 bg-black/20  text-2xl font-bold">
+                        {item.title}
                       </h1>
                     </div>
                   </div>

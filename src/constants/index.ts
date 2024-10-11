@@ -556,12 +556,18 @@ export const productsData = [
 
 import slider1 from "../../public/assets/images/slider1.jpg";
 import slider2 from "../../public/assets/images/slider2.jpg";
-import slider4 from "../../public/assets/images/slider4.jpg";
+// import slider15 from "../../public/assets/images/slider15.jpg";
 import slider3 from "../../public/assets/images/slider3.jpg";
 import bannerSlider1 from "../../public/assets/images/bannerSlider1.png";
 import bannerSlider2 from "../../public/assets/images/bannerSlider2.png";
 import bannerSlider3 from "../../public/assets/images/bannerSlider3.png";
 
-export const bannerImgeData = [bannerSlider1, bannerSlider3, bannerSlider2];
+export const bannerImgeData = [
+  { image: bannerSlider1, title: "Forging Stronger Automotive Solutions " },
+  { image: bannerSlider3, title: "Expert Craftsmanship in Steel Welding" },
+  { image: bannerSlider2, title: "Building the Future of Automotive" },
+];
 
 export const bannerMobileSlider = [slider1, slider2, slider3];
+
+ 

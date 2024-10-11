@@ -16,7 +16,7 @@ const Contact = () => {
         title="CONTACT"
         desc="We are here to help you! Make your move.
 "
-        image="slider5.jpg"
+        image="slider11.jpg"
       />
       <nav className="h-[70px] bg-white flex items-center max-w-screen-xl mx-auto px-5 md:px-7">
         <div className="flex items-center">

@@ -28,8 +28,8 @@ const LandPage = () => {
       <div className=" pt-20  w-full h-full">
         <SliderBanner />
       </div>
-      <div>
-        <LandingHeader/>
+      <div className="   pt-10 md:pt-28" >
+        <LandingHeader />
       </div>
       <ul className="flex  flex-col mt-36 lg:mt-0 lg:flex-row relative min-h-[750px] m-0 p-0 overflow-hidden list-none w-full">
         {artists.slice(0, visibleImages).map((artist, i) => (
@@ -57,10 +57,15 @@ const LandPage = () => {
                   : "-translate-x-1/2   -translate-y-1/2 lg:-translate-y-[140px] text-start lg:-rotate-90 transition-all duration-500 text-xl lg:text-2xl uppercase"
               }`}
             >
-              <span className=" mr-2  text-white lg:text-3xl   ">{i + 1}</span>
+              
+                
+                <span className=" mr-2  text-white lg:text-3xl   ">
+                  {i + 1}
+                </span>
+               
               {artist.name}
             </h3>
-             <div
+            <div
               className={`relative z-30 opacity-0  text-white  self-end lg:mb-[15%] w-full transition-opacity duration-350 ${
                 active === i ? "opacity-100" : ""
               }`}
