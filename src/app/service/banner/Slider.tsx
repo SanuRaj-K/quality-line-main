@@ -52,7 +52,7 @@ function SliderBanner() {
       />
       <div className="absolute lg:h-[600px]  inset-0 bg-black opacity-50"></div>
 
-      <div className="lg:pl-20 text-center lg:text-start px-5 md:px-0  text-white absolute top-[200px]      lg:top-[150px] ">
+      <div className="lg:pl-20 text-center lg:text-start px-5 md:px-0 md:w-full md:mx-auto      text-white absolute top-[200px]      lg:top-[150px] ">
         <motion.h1
           initial="hidden"
           animate="visible"
@@ -71,7 +71,7 @@ function SliderBanner() {
           exit="hidden"
           variants={headingVariants}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="lg:mt-1 transition-all duration-1000 mt-3 max-w-[600px]"
+          className="lg:mt-1 md:w-full md:mx-auto  lg:mx-0  transition-all duration-1000 mt-3 max-w-[600px]"
         >
           {sliderIndex === 1
             ? "From custom designs to large-scale industrial projects, we specialize in durable steel solutions tailored to meet your unique needs."
