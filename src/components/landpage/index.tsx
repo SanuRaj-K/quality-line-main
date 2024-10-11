@@ -24,11 +24,11 @@ const LandPage = () => {
   }, [artists.length]);
 
   return (
-    <section className="min-h-screen   overflow-hidden bg-black">
+    <section className="min-h-screen   overflow-hidden">
       <div className=" pt-20  w-full h-full">
         <SliderBanner />
       </div>
-      <div className="   pt-10 md:pt-28" >
+      <div className="   pt-10 md:pt-28">
         <LandingHeader />
       </div>
       <ul className="flex  flex-col mt-36 lg:mt-0 lg:flex-row relative min-h-[750px] m-0 p-0 overflow-hidden list-none w-full">
@@ -39,10 +39,11 @@ const LandPage = () => {
               backgroundImage: `url(assets/images/${artist.backgroundUrl})`,
             }}
             role="button"
-            className={`flex flex-1 items-stretch cursor-pointer  transition-all duration-300 relative bg-cover bg-no-repeat bg-top overflow-hidden ${
+            className={`flex flex-1 items-stretch cursor-pointer  transition-all duration-700 relative bg-cover bg-no-repeat bg-top overflow-hidden ${
               active === i ? "flex-[6] cursor-default" : ""
             }`}
-            onClick={() => setActive(i)}
+            onMouseEnter={() => setActive(i)}
+            onMouseLeave={() => setActive(0)}
           >
             <div
               className={` ${
@@ -51,18 +52,14 @@ const LandPage = () => {
             ></div>
 
             <h3
-              className={`font-semibold text-white/70  whitespace-nowrap absolute  top-7 lg:top-auto bottom-28 z-10 left-1/2 transition-all transform ${
+              className={`font-semibold text-white/70 lg:-right-[180px]  whitespace-nowrap absolute  top-7 lg:top-auto bottom-28 z-10 left-1/2 transition-all transform ${
                 active === i
                   ? "opacity-0 top-[200%]"
-                  : "-translate-x-1/2   -translate-y-1/2 lg:-translate-y-[140px] text-start lg:-rotate-90 transition-all duration-500 text-xl lg:text-2xl uppercase"
+                  : "-translate-x-1/2   -translate-y-1/2   text-start lg:-rotate-90 transition-all duration-500 text-xl lg:text-2xl uppercase"
               }`}
             >
-              
-                
-                <span className=" mr-2  text-white lg:text-3xl   ">
-                  {i + 1}
-                </span>
-               
+              <span className=" mr-2  text-white lg:text-4xl   ">{i + 1}</span>
+
               {artist.name}
             </h3>
             <div
