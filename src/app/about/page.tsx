@@ -38,15 +38,15 @@ const AboutPage = () => {
 
       {/* <WhyChoose /> */}
 
-      <div className=" pb-9">
-        <h1 className=" text-center uppercase text-[30px]  font-bold">
+      <div className=" pb-9 mt-8 lg:mt-0">
+        <h1 className=" text-center uppercase lg:text-[30px]  text-[24px]  font-bold">
           Vission and Mission
         </h1>
 
-        <ul className=" flex     mt-10 items-center content-center   justify-center">
+        <ul className=" flex     my-10 items-center content-center  flex-col md:flex-row   justify-center">
           {vissionAndMission.map((item, index) => (
             <li className="   " key={index}>
-              <div className=" inline-flex  cursor-pointer flex-col hover:bg-black group mr-5  transition-all duration-700 items-center rounded-md p-5 bg-[#f9fafb] w-[250px] h-[220px] ">
+              <div className=" inline-flex mt-8 lg:mt-0  md:mx-8  cursor-pointer flex-col hover:bg-black group mr-5  transition-all duration-700 items-center rounded-md p-5 bg-[#f9fafb] w-[250px] h-[220px] ">
                 <Image className="  group-hover:bg-white  rounded-full p-2" quality={100} width={50} src={item.icon} alt={item.title} />
                 <h1 className=" my-3 group-hover:text-white text-[26px] font-semibold uppercase">{item.title}</h1>
                  <p className="  group-hover:text-white  text-center">{item.desc}</p>

@@ -85,14 +85,14 @@ export const branches = [
     email: "team008@eim.ae",
   },
   {
-    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511331/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-125_ifxolo.jpg",
+    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511329/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-124_miivxb.jpg",
     title: "Sajja’h Industrial Area, Sharjah , U.A.E ",
     telephone: "+971 4 3470009",
     fax: "+971 4 3411127",
     email: "aljawdametal@eim.ae",
   },
   {
-    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511329/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-124_miivxb.jpg",
+    logo: "https://res.cloudinary.com/dgoermgtp/image/upload/v1727511331/quality-line/COMPANY_PROFILE-Quality_Line.pdf-image-125_ifxolo.jpg",
     title:
       "Transtek Engineering & Manufacturing Industries, Kanjikode, Palakkad (Dist), Kerala (State), INDIA",
     telephone: " +91 491 2567230",

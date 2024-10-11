@@ -104,7 +104,7 @@ const Contact = () => {
         <h1 className=" text-[26px] uppercase font-semibold text-center my-8">
               Our Branches
             </h1>
-          <ul className="  grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2  gap-5 place-items-center">
+          <ul className="  px-5 lg:px-0  grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2  gap-5 place-items-center">
 
            
             {branches.map((item, index) => (
