@@ -18,7 +18,7 @@ export const Branches = ({ title, icon, id, phone, fax, email }: any) => {
               quality={100}
               height={50}
               width={100}
-              src={icon}
+              src={`/assets/images/products/${icon}`}
               alt="logo"
             />
           </Magnet>

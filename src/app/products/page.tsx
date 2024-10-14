@@ -38,7 +38,7 @@ const Products = () => {
                 className="  min-h-[200px] md:min-h-[220px] lg:min-h-[250px] shadow-md flex items-center  group cursor-pointer  rounded-md  justify-center overflow-hidden bg-black text-white relative"
               >
                 <Image
-                  src={product.image}
+                  src={`/assets/images/products/${product.image}`}
                   width={300}
                   height={300}
                   className="object-cover group-hover:scale-105 absolute w-full h-full group-hover:opacity-45 transition-all duration-500"
