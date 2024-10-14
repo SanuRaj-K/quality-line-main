@@ -619,9 +619,9 @@ export const productsData = [
 ];
 
 import slider1 from "../../public/assets/images/mobileSlider1.png";
-import slider2 from "../../public/assets/images/slider2.jpg";
+import slider2 from "../../public/assets/images/mobileSlider2.png";
 // import slider15 from "../../public/assets/images/slider15.jpg";
-import slider3 from "../../public/assets/images/slider3.jpg";
+import slider3 from "../../public/assets/images/mobileSlider3.png";
 import bannerSlider1 from "../../public/assets/images/bannerSlider1.png";
 import bannerSlider2 from "../../public/assets/images/bannerSlider2.png";
 import bannerSlider3 from "../../public/assets/images/bannerSlider3.png";
